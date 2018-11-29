@@ -1,4 +1,4 @@
-class AlbumArt < Formula
+class AlbumartDl < Formula
     include Language::Python::Virtualenv
 
     desc "A command line tool to download HQ album cover art"
