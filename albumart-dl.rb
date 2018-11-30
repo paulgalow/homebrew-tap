@@ -86,6 +86,6 @@ class AlbumartDl < Formula
   end
 
   test do
-    system bin/"albumart-dl", "--version", "https://youtu.be/he2a4xK8ctk"
+    system bin/"albumart-dl", "--version"
   end
 end
