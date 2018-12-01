@@ -4,7 +4,7 @@ class AlbumartDl < Formula
   desc "Download HQ album cover art"
   homepage "https://github.com/paulgalow/albumart-dl"
   url "https://github.com/paulgalow/albumart-dl/releases/download/v0.1.0/albumart-dl-0.1.0.tar.gz"
-  sha256 "1f40f57ee4cd24dcebe60ab50585301c1bc9356885223112e5fe4660f035d54f"
+  sha256 "16c51ad6785468a5720bace9b0a0433450f6c5e304df33e3edb2472c83e4957c"
 
   bottle :unneeded
 
