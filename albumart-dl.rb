@@ -3,8 +3,8 @@ class AlbumartDl < Formula
 
   desc "Download HQ album cover art"
   homepage "https://github.com/paulgalow/albumart-dl"
-  url "https://github.com/paulgalow/albumart-dl/releases/download/v0.1.1/albumart-dl-0.1.1.tar.gz"
-  sha256 "b8a3f01acf0fa96d8d76e01e847fac6776e22893b94e39b134efe31282bee835"
+  url "https://github.com/paulgalow/albumart-dl/releases/download/v0.1.2/albumart-dl-0.1.2.tar.gz"
+  sha256 "9ad0063dbbd7295336be6b314c124653ad809b5f33c5c910c4a5db9d65a7ee54"
 
   bottle :unneeded
 
@@ -13,8 +13,8 @@ class AlbumartDl < Formula
   # Requests dependencies
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz"
-    sha256 "47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7"
+    url "https://files.pythonhosted.org/packages/06/b8/d1ea38513c22e8c906275d135818fee16ad8495985956a9b7e2bb21942a1/certifi-2019.3.9.tar.gz"
+    sha256 "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
   end
 
   resource "chardet" do
@@ -23,8 +23,8 @@ class AlbumartDl < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/65/c4/80f97e9c9628f3cac9b98bfca0402ede54e0563b56482e3e6e45c43c4935/idna-2.7.tar.gz"
-    sha256 "684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"
+    url "https://files.pythonhosted.org/packages/ad/13/eb56951b6f7950cadb579ca166e448ba77f9d24efc03edd7e55fa57d04b7/idna-2.8.tar.gz"
+    sha256 "c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407"
   end
 
   resource "urllib3" do
@@ -35,13 +35,13 @@ class AlbumartDl < Formula
   # Direct dependencies
 
   resource "yaspin" do
-    url "https://files.pythonhosted.org/packages/fd/a2/2fb522b0d54b278e6ab52a2ffc4d3347668440c06306bb9308667701f4cb/yaspin-0.14.0.tar.gz"
-    sha256 "8e52bf8079a48e2a53f3dfeec9e04addb900c101d1591c85df69cf677d3237e7"
+    url "https://files.pythonhosted.org/packages/09/5e/13d0b2c03952e357d6e480311b577664d2f64a082fafcbfeb0912face3b2/yaspin-0.14.1.tar.gz"
+    sha256 "441f8a6761e347652d04614899fd0a9cfda7439e2d5682e664bd31230c656176"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/40/35/298c36d839547b50822985a2cf0611b3b978a5ab7a5af5562b8ebe3e1369/requests-2.20.1.tar.gz"
-    sha256 "ea881206e59f41dbd0bd445437d792e43906703fff75ca8ff43ccdb11f33f263"
+    url "https://files.pythonhosted.org/packages/52/2c/514e4ac25da2b08ca5a464c50463682126385c4272c18193876e91f4bc38/requests-2.21.0.tar.gz"
+    sha256 "502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e"
   end
 
   def install
