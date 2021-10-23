@@ -6,8 +6,6 @@ class AlbumartDl < Formula
   url "https://github.com/paulgalow/albumart-dl/releases/download/v0.1.2/albumart-dl-0.1.2.tar.gz"
   sha256 "9ad0063dbbd7295336be6b314c124653ad809b5f33c5c910c4a5db9d65a7ee54"
 
-  bottle :unneeded
-
   depends_on "python"
 
   # Requests dependencies
